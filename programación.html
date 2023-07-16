@@ -11,7 +11,7 @@
 <body>
   <header>
     <div class="imagen">
-    <img src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="logo" class="logo">
+    <img width: 100% height: auto src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="logo" class="logo">
     <nav class="navegacion">
       <ul>
         <li><a href="home.html">Home</a></li>
@@ -20,7 +20,7 @@
                 <ul class="registros">
                     <li><a href="cienciasNaturales.html" id="extra">Registros en el Curso de Ciencias Naturales</a></li>
                     <li><a href="quimicaBiologia.html" id="extra">Registros en el Curso de Quimica y Biologia</a></li>
-                    <li><a href="programacion.html" id="extra">Registros en el Curso de Programa-<br>ción</a></li>
+                    <li><a href="programación.html" id="extra">Registros en el Curso de Programa-<br>ción</a></li>
                 </ul>
         </li>
         <li><a href="referencia.html">Referencias</a></li>
@@ -28,8 +28,8 @@
         <li class="submenu">
             <a href="#">Redes Sociales</a>
             <ul class="registros">
-                <li><a href="https://www.instagram.com/solociencia8/"><img src="MULTIMEDIA/insta.png" alt="Instagram Icon">Instagram</a></li>
-                <li><a href="https://twitter.com/SoloCiencia8"><img src="MULTIMEDIA/twitt.png" alt="Twitter Icon">Twitter</a></li>
+                <li><a href="https://www.instagram.com/solociencia8/"><img width: 100% height: auto src="MULTIMEDIA/insta.png" alt="Instagram Icon">Instagram</a></li>
+                <li><a href="https://twitter.com/SoloCiencia8"><img width: 100% height: auto src="MULTIMEDIA/twitt.png" alt="Twitter Icon">Twitter</a></li>
             </ul>
         </li>
         <li class="search-container">
@@ -44,36 +44,36 @@
     </nav>
     </div>
   </header>
+    <form class=formulario action="procesar_formulario_curso3.php" method="POST">
+      <!-- Formulario de registro para el curso de programación -->
+      <h2>Formulario de Registro Programación</h2>
+      <input type="text" class="campos" id="nombre_curso1" name="nombre_curso1" placeholder="Nombre del participante" required><br><br>
+      <input type="text" class="campos" id="cedula_curso1" name="cedula_curso1" placeholder="Cédula" required><br><br>
+
+      <label>Fecha de inicio del curso:</label><br>
+      <input type="radio" id="fecha_inicio_curso1_julio" name="fecha_inicio_curso1" value="20-julio" required>
+      <label for="fecha_inicio_curso1_julio">20 de julio</label><br>
+      <input type="radio" id="fecha_inicio_curso1_octubre" name="fecha_inicio_curso1" value="24-octubre" required>
+      <label for="fecha_inicio_curso1_octubre">24 de octubre</label><br>
+      <input type="radio" id="fecha_inicio_curso1_noviembre" name="fecha_inicio_curso1" value="14-noviembre" required>
+      <label for="fecha_inicio_curso1_noviembre">14 de noviembre</label><br><br>
   
-  <form class=formulario action="procesar_formulario_curso3.jsp" method="POST">
-    <!-- Formulario de registro para el curso de programación -->
-    <h2>Formulario de Registro Programación</h2>
-    <input type="text" class="campos" id="nombre_curso1" name="nombre_curso1" placeholder="Nombre del participante" required><br><br>
-    <input type="text" class="campos" id="cedula_curso1" name="cedula_curso1" placeholder="Cédula" required><br><br>
+      <input class="boton" type="submit" value="Registrarse">
+      <!-- Botón para enviar el formulario -->
+    </form>
 
-    <label>Fecha de inicio del curso:</label><br>
-    <input type="radio" id="fecha_inicio_curso1_julio" name="fecha_inicio_curso1" value="20-julio" required>
-    <label for="fecha_inicio_curso1_julio">20 de julio</label><br>
-    <input type="radio" id="fecha_inicio_curso1_octubre" name="fecha_inicio_curso1" value="24-octubre" required>
-    <label for="fecha_inicio_curso1_octubre">24 de octubre</label><br>
-    <input type="radio" id="fecha_inicio_curso1_noviembre" name="fecha_inicio_curso1" value="14-noviembre" required>
-    <label for="fecha_inicio_curso1_noviembre">14 de noviembre</label><br><br>
-
-    <input class="boton" type="submit" value="Registrarse">
-    <!-- Botón para enviar el formulario -->
-  </form>
-
-  <footer class="foot">
-    <ul class="submenu">
-        <li><a href="home.html">HOME</a></li>
-        <li><a href="cienciasNaturales.html">Registro de Ciencias Naturales</a></li>
-        <li><a href="quimicaBiologia.html">Registro de Química y Biología</a></li>
-        <li><a href="programación.html">Registro de Programación</a></li>
-        <li><a href="referencia.html">Referencias</a></li>
-        <li><a href="contactanos.html">Contáctanos</a></li>
-    </ul>
-    <p class="log" style="text-align: right;"><a class="logout" href="loggin.html">Log Out</a></p>
-    <p class="derechos" style="text-align: right;">Solociencia © 2023. Reservados todos los derechos.</p>
+    <footer class="foot">
+      <ul class="submenu">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="cienciasNaturales.html">Registro de Ciencias Naturales</a></li>
+          <li><a href="quimicaBiologia.html">Registro de Química y Biología</a></li>
+          <li><a href="programación.html">Registro de Programación</a></li>
+          <li><a href="referencia.html">Referencias</a></li>
+          <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+      <p class="log" style="text-align: right;"><a class="logout" href="loggin.html">Log Out</a></p>
+      <p class="derechos" style="text-align: right;">Solociencia © 2023. Reservados todos los derechos.</p>
   </footer>    
 </body>
 </html>
+
