@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Estilos aplicados a todos los elementos de la página */
+
+body{
+    background: linear-gradient(to right, #1c4462 0%, #70c1f3 50%, #1c4462 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* Estilos aplicados al cuerpo de la página */
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario{
+    width: 400px;
+    background-color: rgb(3, 90, 61);
+    padding: 30px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 20px;
+    color: rgb(249, 249, 249);
+    box-shadow: 7px 13px 37px #000;
+}
+
+/* Estilos aplicados al formulario en general */
+
+.formulario h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos aplicados al título del formulario */
+
+.campos{
+    background-color: aquamarine;
+    width: 100%;
+    padding: 9px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+/* Estilos aplicados a los campos de entrada del formulario */
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilos aplicados a los párrafos dentro del formulario */
+
+.formulario a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+}
+
+/* Estilos aplicados a los enlaces dentro del formulario */
+
+.formulario a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+/* Estilos aplicados a los enlaces cuando se les hace hover dentro del formulario */
+
+.formulario .boton{
+    background-color: rgb(21, 165, 117);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+/* Estilos aplicados al botón del formulario */
+
+img .registro{
+    width: 100px;
+    height: 100px;
+}

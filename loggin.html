@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/registroYloggin.css">
+    <!-- Importar hoja de estilos CSS desde un archivo externo -->
+    <title>Loggin</title>
+    <script>
+        function mostrarPopUp() {
+            // Obtener los valores de usuario y contraseña
+            var usuario = document.getElementById("usuario").value;
+            var contrasena = document.getElementById("contrasena").value;
+            
+            if (usuario === "" || contrasena === "") {
+                // Validar si se ingresaron valores en ambos campos
+                alert("Por favor, ingresa un usuario y una contraseña válidos.");
+                return false; // Evitar enviar el formulario si falta información
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <img src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="Logo Solociencias">
+    <!-- Mostrar un logotipo de Solociencias -->
+    <br>
+    <h1 style="width: 50%;">Explora el fascinante mundo de la ciencia, la química y la programación en Solociencias: descubre cursos que te inspirarán y te ayudarán a alcanzar tus metas académicas y profesionales.</h1>
+    <!-- Mostrar un título descriptivo -->
+    <form class="formulario" action="verificarLogin.jsp" method="post" onsubmit="return mostrarPopUp()">
+        <!-- Formulario para iniciar sesión -->
+        <h2>Inicio de Sesión</h2>
+        <!-- Campo de entrada para el usuario -->
+        <input type="text" class="campos" name="usuario" placeholder="Ingrese su Usuario"><br><br>
+        <!-- Campo de entrada para la contraseña -->
+        <input type="password" class="campos" name="contrasena" placeholder="Ingrese su Contrasena"><br><br>
+        <p>¿No tienes cuenta?<a href="registroDeUsuario.html"> Regístrate</a></p>
+        <!-- Botón de envío del formulario -->
+        <input type="submit" class="boton" value="Iniciar Sesión">
+    </form>   
+</body>
+</html>

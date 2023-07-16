@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Estilos aplicados a todos los elementos de la página */
+
+body{
+    background: linear-gradient(to right, #1c4462 0%, #70c1f3 50%, #1c4462 100%);
+    text-align: center;
+    color: white;
+}
+
+/* Estilos aplicados al cuerpo de la página, estableciendo un fondo degradado, alineación de texto y color de texto */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos aplicados a los enlaces, estableciendo decoración de texto y color de texto */

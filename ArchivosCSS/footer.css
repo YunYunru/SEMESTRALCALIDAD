@@ -1,0 +1,61 @@
+/* Estilos para el cuerpo del documento */
+body{
+    margin: 0;
+    background: linear-gradient(to right, #1c4462 0%, #70c1f3 50%, #1c4462 100%); /* Gradiente lineal de fondo */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fuente del texto */
+    position: relative;
+    padding-bottom: 8em; /* Espacio inferior para el footer */
+    min-height: 100vh; /* Altura mínima del cuerpo */
+}
+
+/* Estilos para el footer */
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(81, 81, 95); /* Color de fondo del footer */
+    min-height: 100px; /* Altura mínima del footer */
+    flex-wrap: wrap; /* Envolver elementos en varias líneas si es necesario */
+}
+
+/* Estilos para los elementos del submenú */
+.submenu{
+    list-style: none; /* Eliminar los puntos de la lista */
+    color: aliceblue; /* Color de texto */
+}
+
+.submenu li{
+    display: inline-block; /* Mostrar elementos en línea */
+    padding-left: 35px; /* Espaciado izquierdo entre elementos */
+}
+
+.submenu a {
+	font-family: "Open Sans", sans-serif; /* Fuente del enlace */
+	color: #ffff; /* Color de texto del enlace */
+	font-weight: bold; /* Peso de la fuente en negrita */
+	text-decoration: none; /* Sin subrayado en el enlace */
+    font-size: 0.9em; /* Tamaño de fuente del enlace */
+}
+
+/* Estilos para el log */
+.log{
+    padding-top: 15px; /* Espaciado superior */
+}
+
+/* Estilos para el enlace de logout */
+.logout{
+    font-size: 1.5em; /* Tamaño de fuente del enlace de logout */
+    color: #d86125; /* Color de texto del enlace de logout */
+}
+
+/* Estilos para los derechos de autor */
+.derechos{
+    padding-top: 10px; /* Espaciado superior */
+    color: #ffffff; /* Color de texto */
+}

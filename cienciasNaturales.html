@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/registroClases.css">
+    <!-- Importar hoja de estilos CSS desde un archivo externo -->
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/header.css">
+    <!-- Importar hoja de estilos CSS para el encabezado desde un archivo externo -->
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/footer.css">
+    <!-- Importar hoja de estilos CSS para el pie de página desde un archivo externo -->
+    <title>Ciencias Naturales</title>
+</head>
+<body>
+  <header>
+    <div class="imagen">
+    <img src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="logo" class="logo">
+    <!-- Mostrar un logotipo de SoloCiencias -->
+    <nav class="navegacion">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <!-- Enlace a la página principal -->
+        <li class="submenu">
+            <a href="#">Registros</a>
+                <!-- Menú desplegable para los registros -->
+                <ul class="registros">
+                    <li><a href="cienciasNaturales.html" id="extra">Registros en el Curso de Ciencias Naturales</a></li>
+                    <li><a href="quimicaBiologia.html" id="extra">Registros en el Curso de Química y Biología</a></li>
+                    <li><a href="programacion.html" id="extra">Registros en el Curso de Programación</a></li>
+                </ul>
+        </li>
+        <li><a href="referencia.html">Referencias</a></li>
+        <!-- Enlace a la página de referencias -->
+        <li><a href="contactanos.html">Contáctanos</a></li>
+        <!-- Enlace a la página de contacto -->
+        <li class="submenu">
+            <a href="#">Redes Sociales</a>
+            <!-- Menú desplegable para las redes sociales -->
+            <ul class="registros">
+                <li><a href="https://www.instagram.com/solociencia8/" id="extra"><img src="MULTIMEDIA/insta.png" alt="Instagram Icon">Instagram</a></li>
+                <li><a href="https://twitter.com/SoloCiencia8" id="extra"><img src="MULTIMEDIA/twitt.png" alt="Twitter Icon">Twitter</a></li>
+            </ul>
+        </li>
+        <li class="search-container">
+          <script async src="https://cse.google.com/cse.js?cx=a59ea8691f3544e68">
+          </script>
+          <div class="gcse-search"></div>
+          <!-- Caja de búsqueda de Google personalizada -->
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <form class=formulario action="procesar_formulario_curso1.jsp" method="POST">
+      <!-- Formulario de registro -->
+      <h2>Formulario de Registro Ciencias Naturales</h2>
+      <!-- Título del formulario -->
+      <input type="text" class="campos" id="nombre_curso1" name="nombre_curso1" placeholder="Nombre del participante" required><br><br>
+      <!-- Campo de entrada para el nombre del participante -->
+      <input type="text" class="campos" id="cedula_curso1" name="cedula_curso1" placeholder="Cédula" required><br><br>
+      <!-- Campo de entrada para la cédula -->
+  
+      <label>Fecha de inicio del curso:</label><br>
+      <!-- Selección de la fecha de inicio del curso -->
+      <input type="radio" id="fecha_inicio_curso1_julio" name="fecha_inicio_curso1" value="20-julio" required>
+      <label for="fecha_inicio_curso1_julio">20 de julio</label><br>
+      <input type="radio" id="fecha_inicio_curso1_octubre" name="fecha_inicio_curso1" value="24-octubre" required>
+      <label for="fecha_inicio_curso1_octubre">24 de octubre</label><br>
+      <input type="radio" id="fecha_inicio_curso1_noviembre" name="fecha_inicio_curso1" value="14-noviembre" required>
+      <label for="fecha_inicio_curso1_noviembre">14 de noviembre</label><br><br>
+
+      <input type="submit" class="boton" value="Registrarse">
+      <!-- Botón de envío del formulario -->
+    </form>
+
+    <footer>
+      <ul class="submenu">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="cienciasNaturales.html">Registro de Ciencias Naturales</a></li>
+        <li><a href="quimicaBiologia.html">Registro de Química y Biología</a></li>
+        <li><a href="programación.html">Registro de Programación</a></li>
+        <li><a href="#">Referencias</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+      <!-- Menú de navegación en el pie de página -->
+      <p class="log" style="text-align: right;"><a class="logout" href="loggin.html">Log Out</a></p>
+      <!-- Enlace para cerrar sesión -->
+      <p class="derechos" style="text-align: right;">Solociencia © 2023. Reservados todos los derechos.</p>
+      <!-- Derechos de autor -->
+  </footer>
+</body>
+</html>

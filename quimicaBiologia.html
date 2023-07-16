@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/registroClases.css">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/footer.css">
+    <title>Química y Biología</title>
+</head>
+<body>
+  <header>
+    <div class="imagen">
+    <img src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="logo" class="logo">
+    <nav class="navegacion">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="submenu">
+            <a href="#">Registros</a>
+                <ul class="registros">
+                    <li><a href="cienciasNaturales.html" id="extra">Registros en el Curso de Ciencias Naturales</a></li>
+                    <li><a href="quimicaBiologia.html" id="extra">Registros en el Curso de Quimica y Biologia</a></li>
+                    <li><a href="programación.html" id="extra">Registros en el Curso de Programa-<br>ción</a></li>
+                </ul>
+        </li>
+        <li><a href="referencia.html">Referencias</a></li>
+        <li><a href="contactanos.html">Contactanos</a></li>
+        <li class="submenu">
+            <a href="#">Redes Sociales</a>
+            <ul class="registros">
+                <li><a href="https://www.instagram.com/solociencia8/" id="extra"><img src="MULTIMEDIA/insta.png" alt="Instagram Icon">Instagram</a></li>
+                <li><a href="https://twitter.com/SoloCiencia8" id="extra"><img src="MULTIMEDIA/twitt.png" alt="Twitter Icon">Twitter</a></li>
+            </ul>
+        </li>
+        <li class="search-container">
+          <script async src="https://cse.google.com/cse.js?cx=a59ea8691f3544e68">
+          </script>
+          <div class="gcse-search"></div>
+            
+        </li>
+        
+
+      </ul>
+    </nav>
+    </div>
+  </header>
+    <form class=formulario action="procesar_formulario_curso2.jsp" method="POST">
+      <!-- Formulario de registro para el curso de Química y Biología -->
+      <h2>Formulario de Registro Química y Biología</h2>
+      <input type="text" class="campos" id="nombre_curso1" name="nombre_curso1" placeholder="Nombre del participante" required><br><br>
+      <input type="text" class="campos" id="cedula_curso1" name="cedula_curso1" placeholder="Cédula" required><br><br>
+  
+      <label>Fecha de inicio del curso:</label><br>
+      <input type="radio" id="fecha_inicio_curso1_julio" name="fecha_inicio_curso1" value="20-julio" required>
+      <label for="fecha_inicio_curso1_julio">20 de julio</label><br>
+      <input type="radio" id="fecha_inicio_curso1_octubre" name="fecha_inicio_curso1" value="24-octubre" required>
+      <label for="fecha_inicio_curso1_octubre">24 de octubre</label><br>
+      <input type="radio" id="fecha_inicio_curso1_noviembre" name="fecha_inicio_curso1" value="14-noviembre" required>
+      <label for="fecha_inicio_curso1_noviembre">14 de noviembre</label><br><br>
+  
+      <input type="submit" class="boton" value="Registrarse">
+    </form>
+
+    <footer>
+      <ul class="submenu">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="cienciasNaturales.html">Registro de Ciencias Naturales</a></li>
+        <li><a href="quimicaBiologia.html">Registro de Química y Biología</a></li>
+        <li><a href="programación.html">Registro de Programación</a></li>
+        <li><a href="referencia.html">Referencias</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+      </ul>
+      <p class="log" style="text-align: right;"><a class="logout" href="loggin.html">Log Out</a></p>
+      <p class="derechos" style="text-align: right;">Solociencia © 2023. Reservados todos los derechos.</p>
+  </footer>
+</body>
+</html>

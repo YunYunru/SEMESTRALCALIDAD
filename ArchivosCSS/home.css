@@ -1,0 +1,39 @@
+/* Estilos para la página de inicio (Home) */
+.video-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+
+.video {
+	width: 400px;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.video-title {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+	background-color: #6930C3; /* Color de fondo del título del video */
+	padding: 10px;
+}
+
+.video-description {
+	color: rgb(4, 4, 4); /* Color del texto de la descripción del video */
+	font-weight: bold;
+}
+
+/* Estilos para el pie de página (Footer) */
+footer{
+	margin: 15px;
+	line-height: 20px;
+}
+
+.sub{
+	margin: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

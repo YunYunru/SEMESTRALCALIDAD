@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdamus+Regular&display=swap');
+
+/* Importación de la fuente Agdamus Regular desde Google Fonts */
+
+section {
+    width: 1500px;
+    max-width: 90%;
+    margin: 0;
+    font-family: 'Agdamus Regular', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos generales para la sección, estableciendo ancho, margen y fuente */
+
+#container {
+    width: 1400px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+/* Estilos para el contenedor, estableciendo ancho, colapso de borde y margen */
+
+.box {
+    border: 3px solid transparent;    
+    border-collapse: collapse;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.63em;
+}
+
+/* Estilos para las cajas, estableciendo borde, colapso de borde, dimensiones, relleno, altura de línea, alineación de texto y tamaño de fuente */
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para los enlaces dentro de las cajas, estableciendo decoración de texto y color */
+
+.box:hover {
+    background-color: #031FA2;
+    border: solid white;
+}
+
+/* Estilos para las cajas al pasar el cursor sobre ellas, estableciendo color de fondo y borde */
+
+.box:hover a {
+    color: white;
+}
+
+/* Estilos para los enlaces dentro de las cajas al pasar el cursor sobre ellas, estableciendo color de texto */
+
+#panelOne {
+    float: left;
+    background-color: #ffd6cc; /* Color para panelOne - rosa claro */
+    border-collapse: collapse;
+
+}
+
+/* Estilos para el panelOne, estableciendo flotamiento, color de fondo y colapso de borde */
+
+#H{
+    background-color: #e2795f    
+}
+
+#panelTwo {
+    float: left;
+    position: relative;
+    top: 50px;
+    background-color: #b3e6ff; /* Color para panelTwo - azul claro */
+}
+
+/* Estilos para el panelTwo, estableciendo flotamiento, posición relativa, desplazamiento superior, color de fondo */
+
+.panelThree {
+    float: left;
+    position: relative;
+    top: 150px;
+    background-color: #d5f5e3; /* Color para panelThree - verde claro */
+}
+
+/* Estilos para el panelThree, estableciendo flotamiento, posición relativa, desplazamiento superior, color de fondo */
+
+.panelFour {
+    float: left;
+    position: relative;
+    top: 50px;
+    background-color: #ffffcc; /* Color para panelFour - amarillo claro */
+}
+
+/* Estilos para el panelFour, estableciendo flotamiento, posición relativa, desplazamiento superior, color de fondo */
+
+#cloro{
+    background-color: #daf338;
+}
+
+#panelFive {
+    float: left;
+    background-color: #ffcc99; /* Color para panelFive - naranja claro */
+}
+
+/* Estilos para el panelFive, estableciendo flotamiento y color de fondo */
+
+#lowerContainer {
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+/* Estilos para el contenedor inferior, estableciendo flotamiento y márgenes */
+
+.bottom {
+    float: left;
+    background-color: #ffcc99; /* Color para panelFive - naranja claro */
+}
+
+#metaloides{
+    background-color: #27f624;
+}
+
+#nometal{
+    background-color: #d978ed;
+}

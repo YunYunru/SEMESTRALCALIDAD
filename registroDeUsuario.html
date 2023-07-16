@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Archivos CSS/registroYloggin.css">
+    <title>Registro de Usuario</title>
+    <script>
+      // Función JavaScript para redireccionar al usuario a la página de inicio
+      function redireccionar() {
+          window.location.href = "home.html"; 
+      }
+    </script>
+</head>
+
+<body>
+  <img class="registro" src="MULTIMEDIA/SoloCienciasLogoFinal.png" alt="Logo Solociencias">
+  <!-- Mostrar un logotipo de Solociencias -->
+    <form class="formulario" action="registroUsuario.jsp" method="POST">
+      <!-- Formulario de registro de usuario -->
+      <h2>Registro de Usuario</h2>
+      <input type="text" class="campos" name="nombre" placeholder="Ingrese su Nombre" required><br><br>
+      <input type="text" class="campos" name="apellido" placeholder="Ingrese su Apellido" required><br><br>
+      <input type="text" class="campos" name="usuario" placeholder="Ingrese nombre de Usuario" required><br><br>
+      <input type="number" class="campos" name="edad" min="16" placeholder="Ingrese su Edad" required><br><br>
+      <input type="password" class="campos" name="contrasena" placeholder="Ingrese su contraseña" required><br><br>
+      <input type="password" class="campos" name="contrasena" placeholder="Confirme su contraseña" required><br><br>
+      <p>Estoy de acuerdo con los <a href="#">Términos y Condiciones</a></p>
+      <input type="submit" class="boton" value="Registrar">
+    </form>
+</body>
+
+</html>

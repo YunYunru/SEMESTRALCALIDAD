@@ -1,0 +1,151 @@
+/* Estilos globales para todos los elementos */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Estilos para el encabezado */
+header{
+	width: 100%;
+	height: 90px;
+	background-color: #405bb1; /* Color de fondo del encabezado */
+}
+
+/* Estilos para la imagen del encabezado */
+.imagen{
+	max-width: 100%;
+	padding: 0 10px;
+	margin: auto;
+}
+
+/* Estilos para el logotipo */
+.logo{
+	float: left;
+	padding: 5px 20px 0;
+    height: 90px;
+}
+
+/* Estilos para la animación del logotipo al pasar el cursor por encima */
+.logo img:hover{
+	transform: scale(1.1); /* Aumenta el tamaño del logotipo */
+}
+
+/* Estilos para la barra de navegación */
+.navegacion{
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+}
+
+/* Estilos para la lista no ordenada de la barra de navegación */
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+	margin-left: -80px;
+}
+
+/* Estilos para cada elemento de la lista de la barra de navegación */
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+	margin-right: 50px;
+}
+
+/* Estilos para la animación de escala al pasar el cursor por encima de cada elemento de la lista */
+.navegacion ul li:hover{
+	transform: scale(1.1); /* Aumenta el tamaño del elemento */
+}
+
+/* Estilos para los enlaces de cada elemento de la lista de la barra de navegación */
+.navegacion ul li a{
+	color: #ffffff; /* Color de texto */
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 20px;
+	transition: .3s linear;
+	text-decoration: none;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Estilos para el identificador "extra" */
+#extra{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+/* Estilos para la animación de color al pasar el cursor por encima de los enlaces */
+.navegacion ul li a:hover{
+	color: #00c9bd; /* Cambia el color del texto */
+	transform: scale(1.1); /* Aumenta el tamaño del enlace */
+}
+
+/* Estilos para mostrar el menú desplegable al pasar el cursor por encima de los elementos de la lista */
+.navegacion ul li:hover .registros{
+	display: block; /* Muestra el menú desplegable */
+}
+
+/* Estilos para el menú desplegable */
+.navegacion .submenu .registros{
+	display: none; /* Oculta el menú desplegable por defecto */
+	background: #6930C3; /* Color de fondo del menú desplegable */
+	position: absolute;
+	width: 138%; /* Ancho del menú desplegable */
+	margin-left: -30px;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Estilos para cada elemento del menú desplegable */
+.navegacion .submenu .registros li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+	text-align: center;
+}
+
+/* Estilos para los enlaces de cada elemento del menú desplegable */
+.navegacion .submenu .registros li a{
+	display: block;
+}
+
+/* Estilos para el texto */
+#texto{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+/* Estilos para el formulario de búsqueda dentro del contenedor */
+.search-container form {
+    margin-left: 20px;
+}
+
+/* Estilos para las imágenes de los registros */
+.registros img{
+	max-width: 9.5%;
+	padding: 0 10px;
+	padding-top: 4.2px;
+	margin: auto;
+}
