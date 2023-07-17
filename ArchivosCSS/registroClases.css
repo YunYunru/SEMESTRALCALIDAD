@@ -54,6 +54,13 @@ body{
     text-align: center;
     font-size: 16px;
 }
+/* Estilos aplicados al footer */
+footer a {
+    font-size: 10px;
+    color: #fefefe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
 /* Estilos aplicados a los párrafos dentro del formulario */
 
@@ -89,13 +96,8 @@ footer {
     padding: 20px;
 }
 
-/* Estilos aplicados al footer */
 
-footer a {
-    font-size: 10px;
-    color: #fefefe;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
+
+
 
 /* Estilos aplicados a los enlaces dentro del footer */
