@@ -42,6 +42,10 @@ body {
     width: 100%;
 }
 
+img {
+    width: 150px;
+    height: 180px;
+}
 
     /* Color de los contenedores */
 .cc {
@@ -56,7 +60,3 @@ h1 {
 
 }
 
-img {
-    width: 150px;
-    height: 180px;
-}
